@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kindness</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="player-score" id="you-score">
+        <h2 class="player-title" id="you-title">Your Energy</h2>
+        <h3 class="player-energy" id="you-energy">50</h3>
+    </div>
+
+    <div class="player-score" id="friend-score">
+        <h2 class="player-title" id="friend-title">Friend's Energy</h2>
+        <h3 class="player-energy" id="friend-energy">50</h3>
+    </div>
+
+    <div id="game-window">
+        <div id="friend-ball">
+            <h4 id="friend-ball-label">Friend</h4>
+        </div>
+    </div>
+
+    <div class="game-help">
+        <h3>W: Give your friend more energy</h3>
+        <h3>S: Take away your friend's energy</h3>
+        <br>
+        <h3 class="game-objective">Don't let your or your friend's energy dip below 65!</h3>
+        <h3 class="help-messages"></h3>
+    </div>
+
+    <div class="game-title-screen">
+        <h1 class="game-title">Kindness</h1>
+        <h3 class="game-explanation">A large, red ball simulates your new friend, and you must balance your happiness levels with this ball by carefully giving the ball more energy, thus giving it more happiness. Be careful! If you give away too much of your own energy, your happiness levels will dip below ideal levels. The goal of Kindness is to keep happiness levels between you and your friend within threshold levels. Good luck!</h3>
+        <button class="start-game-button">Start Game</button>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

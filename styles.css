@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+.game-title-screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000000;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.game-title-screen > * {
+    margin: 0 auto;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+.gane-title-screen h1, .game-title-screen h3 {
+    color: #ffffff;
+}
+
+.game-title {
+    font-size: 8em;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.game-explanation {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 1.5em;
+    font-size: 2em;
+}
+
+.start-game-button {
+    width: 500px;
+    height: 150px;
+    background: #109cef;
+    border: none;
+    font-size: 4em;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5em;
+}
+
+#game-window {
+    width: 50%;
+    height: 700px;
+    margin: 0 auto;
+    background: #109cef;
+    position: relative;
+}
+
+#game-window > * {
+    font-family: "Roboto Mono", sans-serif;
+}
+
+#friend-ball {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ef0b0b;
+    border-radius: 100%;
+    display: table;
+    border: none;
+}
+
+#friend-ball-label {
+    color: #ffffff;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.player-score {
+    position: absolute;
+    top: 0;
+    color: #ffffff;
+    width: 25%;
+}
+
+.player-title {
+    text-align: center;
+}
+
+#you-score {
+    left: 0;
+}
+
+#friend-score {
+    right: 0;
+}
+
+#you-title {
+    font-size: 3em;
+    color: #109cef;
+}
+
+#friend-title {
+    font-size: 3em;
+    color: #ef0b0b;
+}
+
+.player-energy {
+    font-size: 5em;
+    text-align: center;
+}
+
+#you-energy {
+    left: 0;
+}
+
+#friend-energy {
+    right: 0;
+}
+
+.game-help {
+    color: #ffffff;
+    padding-left: 2em;
+}
+
+.game-objective {
+    display: inline-block;
+    background: #faff00;
+    color: #000000;
+}
